@@ -1,0 +1,7 @@
+name             'pci'
+maintainer       'Iliya Strakovich'
+maintainer_email 'iliya@strakovich.com'
+license          'All rights reserved'
+description      'Installs/Configures pci'
+long_description 'Installs/Configures pci'
+version          '0.1.0'
