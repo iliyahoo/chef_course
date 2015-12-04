@@ -1,1 +1,1 @@
-default[:motd][:company] = "GetT"
+default["motd"]["company"] = "GetT"

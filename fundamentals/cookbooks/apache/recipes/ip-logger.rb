@@ -1,3 +1,3 @@
 search("node", "platform:centos").each do |server|
-  log "The server has the following IP address: #{server[:fqdn]}/#{server[:ipaddress]}"
+  log "The CentOS servers in your organization have the following FQDN/IP Addresses:- #{server["fqdn"]}/#{server["ipaddress"]}"
 end

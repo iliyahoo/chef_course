@@ -6,7 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-search("users", "*:*").each do |user_data|
+
+search('users', "*:*").each do |user_data|
   user user_data["id"] do
     comment user_data["comment"]
     uid user_data["uid"]
@@ -16,4 +17,4 @@ search("users", "*:*").each do |user_data|
   end
 end
 
-include_recipe "users::groups"
+include_recipe 'users::groups'

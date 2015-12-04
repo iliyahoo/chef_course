@@ -1,7 +1,7 @@
 name             'pci'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Iliya Strakovich'
+maintainer_email 'iliya@strakovich.com'
 license          'All rights reserved'
 description      'Installs/Configures pci'
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+long_description 'Installs/Configures pci'
 version          '0.1.0'
