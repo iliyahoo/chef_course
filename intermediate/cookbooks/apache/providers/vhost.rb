@@ -1,5 +1,3 @@
-use_inline_resources
-
 action :create do
   # Set the document root
   document_root = "/srv/apache/#{new_resource.site_name}"
